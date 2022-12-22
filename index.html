@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп Бородински</title>
+</head>
+<body>
+    <header class="page-header">
+    <nav class="navigation">
+        <ul class="navigation-list">
+            <li class="navigation-item">
+                <a class="navigation-link" href="about.html">О нас</a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="catalog.html">Каталог</a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="faq.html">Частые вопросы</a>
+            </li>
+        </ul>
+    
+        <ul class="navigation-users">
+            <li class="navigation-users-item">
+                <a class="navigation-link" href="#">
+                    <span class="visualy-hidden">Поиск</span></a>
+            </li>
+            <li class="navigation-users-item">
+                <a class="navigation-link" href="#">
+                    <span class="visualy-hidden">Корзина</span>
+                </a>
+            </li>
+            <li class="navigation-users-item">
+                <a class="navigation-link" href="#">Вход</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main class = main-index>
+        <h1 class="visualy-hidden">Барбершоп Бородински</h1>
+        <img class="logo" src="logo.png" alt="Логотип барбершопа Бородински">
+        
+        <section class="advanatge">
+            <h2 class="advantage-title">Преимущества</h2>
+                <ul class="advantages-list">
+                    <li class="advantages-item">
+                        <h3 class="advantages-item-name">Быстро</h3>
+                        <p class ="advantage-item-description">Мы делаем свою работу быстро! Два часа пролетят незаметно, и вы — счастливый обладатель стильной стрижки-минутки!</p>
+                    </li>
+                    <li class="advantages-item">
+                        <h3 class="advantages-item-name">Круто</h3>
+                        <p class ="advantage-item-description">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+                    </li>
+                    <li class="advantages-item">
+                        <h3 class="advantages-item-name">Дорого</h3>
+                        <p class ="advantage-item-description">Наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не даёт определённый статус?</p>
+                    </li>
+                </ul>
+        </section>
+
+        <section class="services">
+            <h2 class="services-title">Популярные услуги</h2>
+            <ul class="services-list">
+                <li class="services-item">
+                    <span class="services-name">Стрижка машинкой</span>
+                    <b class="services-price">800р</b>
+                </li>
+                <li class="services-name">
+                    <span class="services-name">Стрижка усов</span>
+                    <b class="price">1200р</b>
+                </li>
+                <li class="services-name">
+                    <span class="services-name">Груминг</span>
+                    <b class="price">400р</b>
+                </li>
+                <li class="services-name">
+                    <span class="services-name">Комплексная стрижка</span>
+                    <b class="price">2300р</b>
+                </li>
+            </ul>
+            <a class="button button-all" href="view-all.html">Посмотреть все</a>
+        </section>
+
+        <section class="gallary">
+            <h2 class="section-title">Фотогалерея</h2>
+            <ul class="gallary-list">
+                <li class="gallary-item">
+                    <img src="image1.jpg" alt="Пример работ 1">
+                </li>
+                <li class="gallary-item">
+                    <img src="image2.jpg" alt="Пример работ 2">
+                </li>
+                <li class="gallary-item">
+                    <img src="image3.jpg" alt="Пример работ 3">
+                </li>
+                <li class="gallary-item">
+                    <img src="image4.jpg" alt="Пример работ 4">
+                </li>
+            </ul>
+            <button class="slider-button button-prev" type="button">
+                <span class="visualy-hidden">Назад</span>
+            </button>
+            <button class="slider-button button-next" type="button">
+                <span class="slider-button button-next">Вперед</span>
+            </button>
+            <ol class="slider-pagination">
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                        <span class="visualy-hidden">Фото 1</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button" type="button">
+                        <span class="visualy-hidden">Фото 2</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button" type="button">
+                        <span class="visualy-hidden">Фото 3</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button" type="button">
+                        <span class="visualy-hidden">Фото 4</span>
+                    </button>
+                </li>
+            </ol>
+        </section>
+        <section class="contact">
+            <h2 class="section-title">Контакты</h2>
+            <h3 class="section-subname">Барбершоп "Бородински"</h3>
+            <address class="contact-adress">
+                <p class="contact-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+                <a class="phone-number" href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
+            </address>
+            <h3 class="section-subname">Время работы</h3>
+            <ul class="time-job">
+                <li class="time-job-item">пн—пт: с 10:00 до 22:00</li>
+                <li class="time-job-item">сб—вс: с 10:00 до 19:00</li>
+            </ul>
+            <a class="button button-map" href="#">Как проехать</a>
+            <a class="button button-callback" href="#">Обратная связь</a>
+        </section>
+        <section class="sing-up">
+            <h2 class="section-title">Записаться</h2>
+            <p class="section-description">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
+            <form method="post" action="https://echo.htmlacademy.ru" class="sing-up-form">
+                <p class="sing-ip-form-date">
+                    <span class="sing-up-label sing-up-icon">
+                        <label for="date">Дата:</label>
+                        <button class="info" type="button">
+                            <span class="visibily-hidden">i</span>
+                        </button>
+                    </span>
+                    <input type="text" name="date" id="date" placeholder="01.01.2020">
+                </p>
+                <p class="sing-ip-form-date">
+                    <span class="sing-up-label sing-up-icon">
+                    <label for="time">Время:</label>
+                    <button class="info" type="button">
+                        <span class="visibily-hidden">i</span>
+                    </button>
+                    </span>
+                    <input type="text" name="time" id="time" placeholder="10:10">
+                </p>
+                <p class="sing-ip-form-date">
+                    <span class="sing-up-label sing-up-icon">
+                    <label for="telephon">Телефон:</label>
+                </span>
+                    <input type="text" name="telephon" id="telephon" placeholder="+7 800 000-00-00">
+                    
+                </p>
+                <p class="sing-ip-form-date">
+                    <span class="sing-up-label sing-up-icon">
+                        <label for="name">Ваше имя:</label>
+                    </span>
+                <input type="text" name="name" id="name">
+                </p>
+                <button class="button" type="submit">Записаться</button>
+            </form>
+
+
+        </section>
+    </main>
+
+</body>
+</html>
