@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/fonts/PTSans-Italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("/fonts/PTSans-BoldItalic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* PT Sanse Narrow */
+@font-face {
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/PTSansNarrow-Bold-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", san-serif;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    background-color: #FBF7F4;
+}
+
+/* Pages */
+header {
+    color: white;
+    background-color: black;
+}
+
+.navigation-link {
+    font-family: "PT Sans Narrow",sans-serif;
+    line-height: 22px;
+   /* color: white;*/
+   color: inherit;
+   font-weight: 700;
+   text-align: center;
+   background-color: black;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.main-index{
+    color: white;
+    background-color: black;
+    background-image: url(/img/Интерьер.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+/*List*/
+.advantages-list {
+    text-align: center;
+}
+
+/*Title*/
+.advantages-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+}
+
+.index-colums {
+    background-color: #FBF7F4;
+    color: black;
+    background-image: url("/img/noisy-texture.png");
+}
