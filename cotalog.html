@@ -42,111 +42,203 @@
     </nav>
     </header>
     <main class="content-page">
-        <h1 class="page-title">Каталог</h1>
-        <section class="breadcroms">
+        <header class="page-inner-header">
+            <h1 class="page-title">Каталог</h1>
             <ul class="breadcroums-list">
                 <li class="breadcrous-item">
                     <a class="breadcroums-link" href="">Главная</a>
                 </li>
                 <li class="breadcrous-item">
-                    <a class="breadcroums-link active" href="">Каталог</a>
+                    <a class="breadcroums-link active">Каталог</a>
                 </li>
             </ul>
-        </section>
+        </header>
         <section class="section-filter">
             <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
                 <fieldset class="price">
                     <legend class="fieldset-title">Цена</legend>
                     <button class="price-1">от</button>
                     <button class="price-1">до</button>
-                    <p>от<input class="price" type="number" name="price_start">рублей
-                    до<input class="price" type="number" name="price_end">рублей</p>
-                    <input type="range" name="price-1-1" id="">
-                    <input type="range" name="price-1-2" id="">
+                    <label class="catalog-field-label">
+                        от<input class="price" type="number" name="price_start">рублей
+                    </label>
+                    <label class="catalog-field-label"> 
+                    до<input class="price" type="number" name="price_end">рублей
+                </label>
                 </fieldset>
                 <fieldset class="manufactured">
                     <legend class="manufactured-title">Производители</legend>
-                    <p class="manufactured-item-name"><input class="checkbox-filter" type="checkbox" name="manufactured" id="" value="1">Bed Head for Men</p>
-                    <p class="manufactured-item-name"><input class="checkbox-filter cheked" type="checkbox" name="manufactured" id="" value="2" checked>Homme Deep Cleansing Cool</p>
-                    <p class="manufactured-item-name"><input class="checkbox-filter cheked" type="checkbox" name="manufactured" id="" value="3" checked>So Intense</p>
-                    <p class="manufactured-item-name"><input class="checkbox-filter" type="checkbox" name="" id="manufactured" value="4">Sprekenhus</p>
-                    <p class="manufactured-item-name"><input class="checkbox-filter" type="checkbox" name="" id="manufactured" value="5">Firm Storе</p>
-                    <p class="manufactured-item-name"><input class="checkbox-filter cheked" type="checkbox" name="manufactured" id="" value="6" checked>Winter Body</p>
+                    <ul class="list-chekbox">
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="Bed-Head-for-Men" id="Bed-Head-for-Men">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Bed Head for Men</span>
+                            </label>
+                        </li>
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="Homme-Deep-Cleansing-Cool" id="Homme-Deep-Cleansing-Cool" checked>
+                                <span class="control-mark"></span>
+                                <span class="control-label">Homme Deep Cleansing Cool</span>
+                            </label>
+                        </li>
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="So-Intense" id="So-Intense" checked>
+                                <span class="control-mark"></span>
+                                <span class="control-label">So Intense</span>
+                            </label>
+                        </li>
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="Sprekenhus" id="Sprekenhus">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Sprekenhus</span>
+                            </label>
+                        </li>
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="Firm-Storе" id="Firm-Storе">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Firm Storе</span>
+                            </label>
+                        </li>
+                        <li class="chekbox-item">
+                            <label class="control">
+                                <input class="checkbox-filter" type="checkbox" name="Winter-Body" id="Winter-Body" checked>
+                                <span class="control-mark"></span>
+                                <span class="control-label">Winter Body</span>
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
                 <fieldset class="ctegory">
                     <legend class="category-title">Группы товаров</legend>
-                    <p class="category-item"><input type="radio" name="category" id="" value="1">Бритвенные принадлежности</p>
-                    <p class="category-item"><input type="radio" name="category" id="" value="2" checked>Средства для ухода</p>
-                    <p class="category-item"><input type="radio" name="category" id="" value="3">Аксессуары</p>
+                    <ul class="filter-list">
+                        <li class="radio-item">
+                            <label class="control">
+                                <input class="radio-filter" type="radio" name="product-group" value="shaving-accessories">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Бритвенные принадлежности</span>
+                            </label>
+                        </li>
+                        <li class="radio-item">
+                            <label class="control">
+                                <input class="radio-filter" type="radio" name="product-group" value="care-products" checked>
+                                <span class="control-mark"></span>
+                                <span class="control-label">Средства для ухода</span>
+                            </label>
+                        </li>
+                        <li class="radio-item">
+                            <label class="control">
+                                <input class="radio-filter" type="radio" name="product-group" value="accessories">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Аксессуары</span>
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
                 <input calss="button-filter" type="submit" value="Показать">
             </form>
         </section>
         <section class="view-product">
-            <select class="type-sort-product" name="" id="">Сначала дорогие</select>
-            <ul class="type-view-list">
-                <li class="type-view-item">
-                    <a class="btn-filter-list" href="">
-                        <span class="visually-hidden">Строками</span>
+            <form class="sorting-type" action="">
+                <label class="visually-hidden" for="sorting"> Сортировка</label>
+                <select class="type-sort-product" name="sorting" id="sorting">
+                    <option value="popular">Сначала популрные</option>
+                    <option value="expensive">Сначала дорогие</option>
+                    <option value="cheap">Сначала дешевые</option> 
+                </select>
+                <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+            </form>
+                    <a class="button button-light" href="">
+                        <span class="visually-hidden">Показать строки</span>
                     </a>
-                </li>
-                <li class="type-view-item">
-                    <a class="btn-filter-card" href="">
-                        <span class="visually-hidden">Карточками</span>
+                    <a class="button" href="">
+                        <span class="visually-hidden">Показать карточки</span>
                     </a>
-                </li>
-            </ul>
         </section>
         <section class="product-view">
             <ul class="product-list">
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 1">
-                    <span class="product-name">Шампунь для мужчин Brews Daily</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 1">
+                      <h3 class="product-name">Шампунь для мужчин Brews Daily</h3>
+                    </a>
                     <b class="product-price">744 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 2">
-                    <span class="product-name">Syoss шампунь Men Power & Strength</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 2">
+                      <h3 class="product-name">Syoss шампунь Men Power & Strength</h3>
+                    </a>
                     <b class="product-price">160 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 3">
-                    <span class="product-name">Schauma шампунь для мужчин «Сила и объём с хмелем»</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 3">
+                      <h3 class="product-name">Schauma шампунь для мужчин «Сила и объём с хмелем»</h3>
+                    </a>
                     <b class="product-price">94 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 4">
-                    <span class="product-name">Nivea Men шампунь-уход  «Экстремальная свежесть с ментолом»</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 4">
+                      <h3 class="product-name">Nivea Men шампунь-уход  «Экстремальная свежесть с ментолом»</h3>
+                    </a>
                     <b class="product-price">173 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 5">
-                    <span class="product-name">Шампунь Amplifier Thickening</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 5">
+                      <h3 class="product-name">Шампунь Amplifier Thickening</h3>
+                    </a>
                     <b class="product-price">441 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
                 <li class="product-item">
-                    <img class="product-image" src="" alt="Товар 6">
-                    <span class="product-name">American Crew шампунь Anti-Dandruff</span>
+                    <a class="product-card-link" href="#">
+                      <img class="product-image" src="" alt="Товар 6">
+                      <h3 class="product-name">American Crew шампунь Anti-Dandruff</h3>
+                    </a>
                     <b class="product-price">904 ₽</b>
                     <button class="button-buy">Купить</button>
                 </li>
             </ul>
         </section>
-        <section class="page-pagination">
-            <button class="button-pagination-prev"> <span class="visibillity-hidden">Назад</span></button>
-            <a calss="pagination-num-activ" href="#">1</a>
-            <a calss="pagination-num" href="#">2</a>
-            <a calss="pagination-num" href="#">3</a>
-            <a calss="pagination-num" href="#">4</a>
-            <a calss="pagination-num" href="#">5</a>
-            <button class="button-pagination-prev"> <span class="visibillity-hidden">Вперед</span></button>
-            <button class="button-pagination-shown-add"> <span class="visibillity-hidden">Показать еще</span></button>
-        </section>
+        <ul class="pagination">
+            <li class="pagination-item">
+                <a class="pagination-link pagination-prev pagination-disable" href="">
+                    <span class="visually-hidden">Предыдущая страница</span>
+                </a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link pagination-current" href="">1</a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link" href="">2</a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link" href="">3</a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link" href="">4</a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link" href="">5</a>
+            </li>
+            <li class="pagination-item">
+                <a class="pagination-link pagination-next" href="">
+                    <span class="visually-hidden">Вперед</span>
+                </a>
+            </li>
+        </ul>
+        <button class="button pagination-shown-more" type="button">Показать еще</button>
     </main>
     <footer class="footer-page">
         <section class="footer-contact">
