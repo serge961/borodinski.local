@@ -40,6 +40,18 @@ body {
     background-color: #FBF7F4;
 }
 
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 /* Pages */
 header {
     color: white;
@@ -84,4 +96,156 @@ header {
     background-color: #FBF7F4;
     color: black;
     background-image: url("/img/noisy-texture.png");
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.services {
+    text-transform:uppercase
+}
+
+.services-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.services-list {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.services-price {
+    color: #AF7842;
+}
+
+.section-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform:uppercase;
+
+}
+
+.section-subname {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform:uppercase;
+    color: #AF7842;
+}
+
+.contact-adress {
+    font-style: normal;
+}
+
+.phone-number {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #242424;
+}
+
+.time-job {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-description {
+   font-family: "PT Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+
+}
+
+.sing-up-label {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.footer-page {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #242424;
+    background-image: url(/img/noisy-texture.png);
+    background-repeat: repeat;
+
+}
+
+.footer-page a {
+    color: inherit;
+}
+
+.footer-page .prodaction-link {
+    color: #AF7842;
+}
+
+.nav-bar-page-item {
+/*    font-family: PT Sans Narrow; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.nav-bar-page-item a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.content-page {
+    font-size: 14px;
+    font-weight: 700;
+    color: #242424;
+    background-color: #f3f3f3;
+    background-image: url(/img/noisy-texture.png);
+    background-repeat: repeat;
+}
+
+.page-inner-header {
+    color: #242424;
+    background-color: #f3f3f3;
+    background-image: url(/img/noisy-texture.png);
+    background-repeat: repeat;
+}
+
+.page-title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.breadcroums-list {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.fieldset-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
 }
